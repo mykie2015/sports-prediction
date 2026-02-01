@@ -7,7 +7,7 @@ from typing import Optional, ContextManager
 from contextlib import contextmanager
 from pathlib import Path
 
-from src.sports_prediction.core.models import Competitor, Match, Prediction, Result, SportsData
+from sports_prediction.core.models import Competitor, Match, Prediction, Result, SportsData
 
 logger = logging.getLogger(__name__)
 

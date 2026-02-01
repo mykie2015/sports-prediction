@@ -1,8 +1,8 @@
 import pytest
 from unittest.mock import MagicMock
-from src.sports_prediction.sports.tennis.fetcher import TennisAPIFetcher
-from src.sports_prediction.data.api_client import APIClient
-from src.sports_prediction.core.database import DatabaseManager
+from sports_prediction.sports.tennis.fetcher import TennisAPIFetcher
+from sports_prediction.data.api_client import APIClient
+from sports_prediction.core.database import DatabaseManager
 
 class TestTennisAPIFetcher:
     @pytest.fixture

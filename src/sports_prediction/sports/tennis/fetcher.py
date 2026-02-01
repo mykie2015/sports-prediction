@@ -3,9 +3,9 @@ import logging
 from datetime import datetime, timedelta, timezone
 from typing import Dict, Any, Optional
 
-from src.sports_prediction.core.database import DatabaseManager
-from src.sports_prediction.core.models import SportsData
-from src.sports_prediction.data.api_client import APIClient
+from sports_prediction.core.database import DatabaseManager
+from sports_prediction.core.models import SportsData
+from sports_prediction.data.api_client import APIClient
 
 logger = logging.getLogger(__name__)
 

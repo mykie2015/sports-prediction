@@ -2,8 +2,8 @@ import unittest
 import sqlite3
 import json
 from datetime import datetime, timezone
-from src.sports_prediction.core.database import DatabaseManager
-from src.sports_prediction.core.models import Competitor, Match, Prediction, Result, SportsData
+from sports_prediction.core.database import DatabaseManager
+from sports_prediction.core.models import Competitor, Match, Prediction, Result, SportsData
 
 class TestDatabaseManager(unittest.TestCase):
     def setUp(self):
