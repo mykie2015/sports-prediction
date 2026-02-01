@@ -70,7 +70,7 @@ ipython_config.py
 .DS_Store
 
 # Data files (common for ML/data projects)
-data/
+/data/
 *.csv
 *.parquet
 *.db
@@ -78,7 +78,7 @@ data/
 *.sqlite3
 
 # Model files
-models/
+/models/
 *.pkl
 *.h5
 *.pt
